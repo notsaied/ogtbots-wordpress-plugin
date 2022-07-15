@@ -1,0 +1,39 @@
+body{
+    family-font:tahoma;
+    font-size:16px;
+}
+.text-center{
+    text-align:center;
+}
+.alert{
+background-color: #ccccff;
+padding: 8px;
+border-radius: 6px;
+border: 1px solid#aaaaf5;
+width: 80%;
+margin: auto;
+}
+.mt-6{
+    margin-top: 6px;
+}
+.mb-6{
+    margin-bottom: 6px;
+}
+textarea{
+    width: 30%;
+    resize: none;
+    border-radius: 8px;
+}
+.btn{
+    display: block;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    background: #1d2327;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    border-radius: 500px;
+    font-family: tahoma;
+}
