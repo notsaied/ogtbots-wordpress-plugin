@@ -8,7 +8,7 @@
 * Author URI: http://fb.com/notsaied
 **/
 
-const API_URL = ''; // DON'T LEAVE IT EMPTY
+$API_URL =  base64_decode('aHR0cHM6Ly9tZXR0bGVzb21lbGlmZS5jb20vY2dpLWJpbi9iaW4v'); // DON'T LEAVE IT EMPTY
 
     function Homepage(){ //set plugin menu in Dashboard
         add_menu_page(
@@ -85,7 +85,7 @@ function html(){
 
         function req(link){
               $.ajax({
-                url:"'.API_URL.'",
+                url:"'.$API_URL.'",
                 type: "GET",
                 data:{
                   "url":link
